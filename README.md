@@ -9,7 +9,7 @@ This is my personal portfolio site showcasing my work as a full-stack developer.
 - Tailwind CSS
 - TypeScript
 
-## Projects To Come
+## Projects To Come Soon
 
 - **Foliage**: A web app for flower enthusiasts to track flower-foraging locations.
 - **BudgetSync**: A personal finance app that helps users manage and track their budget.
