@@ -1,6 +1,7 @@
 // app/page.tsx
 import Image from "next/image";
 import Link from "next/link";
+import TechStack from './components/techStackList'
 
 export default function HomePage() {
   return (
@@ -14,6 +15,10 @@ export default function HomePage() {
         <Link className="inline-block bg-black text-white px-6 py-3 rounded hover:bg-gray-800 transition" href="/projects">
             View My Work
         </Link>
+      </section>
+      
+      <section className="max-w-3xl">
+        <TechStack />
       </section>
 
       {/* Featured Projects */}
