@@ -4,17 +4,17 @@ import Link from 'next/link';
 const Header = () => {
   return (
     <header className="flex justify-around p-4 bg-gray-800 text-white">
-      <Link href="/">
-        <a className="hover:underline">Home</a>
+      <Link className="hover:underline" href="/">
+        Home
       </Link>
-      <Link href="/about">
-        <a className="hover:underline">About</a>
+      <Link className="hover:underline" href="/about">
+        About
       </Link>
-      <Link href="/projects">
-        <a className="hover:underline">Projects</a>
+      <Link className="hover:underline" href="/projects">
+       Projects
       </Link>
-      <Link href="/contact">
-        <a className="hover:underline">Contact</a>
+      <Link className="hover:underline" href="/contact">
+       Contact
       </Link>
     </header>
   );
